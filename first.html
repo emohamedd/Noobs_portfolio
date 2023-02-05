@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>My Portfolio</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id="about">
+        <p id="greeting"></p> 
+        <h2>About Me</h2>
+        <p>Hi there! I am Amine, a 20-year-old 1337 student with a passion for technology and programming. My exceptional skills and aptitude in the field set me apart from my peers and have allowed me to make a name for myself at such a young age. My mastery of coding and drive to continuously improve show my dedication to the field and my determination to succeed. I am confident that my love for technology will lead me to great achievements and opportunities in the future.</p>
+      </section>
+      <section id="projects">
+        <h2>My Projects</h2>
+        <ul>
+        <a href="https://github.com/emohamedd">My Github</a><br>
+        <a href="https://www.linkedin.com/in/mohamed-amine-el-gaouej-3a908623b/">My Linkedin</a>
+        </ul>
+      </section>
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+          <input type="submit" value="Submit">
+        </form>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

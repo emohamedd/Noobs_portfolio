@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #0e0000;
+    color: #fff;
+    padding: 10mm;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav {
+    background-color: #ddd;
+    padding: 1em;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  nav a {
+    color: #333;
+    display: block;
+    text-decoration: none;
+}
+ nav a:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  main {
+    padding: 2em;
+  }
+  
+  section {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1em;
+  }
+  
+  section h2 {
+    color: black;
+    margin-top: 0;
+  }
+  
+  form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  form label {
+    flex-basis: 100%;
+    margin-bottom: 1em;
+    text-align: left;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form textarea {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    flex-basis: 100%;
+    padding: 0.5em;
+  }
+  
+  form input[type="submit"] {
+    background-color: black;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    flex-basis: 100%;
+    padding: 1em;
+  }
+  
+  footer {
+    background-color: black;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+  }
+  
